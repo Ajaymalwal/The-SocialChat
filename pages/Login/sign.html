@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SocilChat/Login and Sign Up</title>
+
+
+  <link rel="stylesheet" href="/css/sign.css">
+  <link rel="stylesheet" href="/css/web.css">
+  <link rel="stylesheet" href="/css/about.css">
+</head>
+<body>
+  <header>  
+    <div id="header">
+    <div id="fullLogo">
+      <img src="/images/Social_Chat.png" alt="logo social chat" id="logo">
+      </div>
+       <nav>
+        <div class="nav-bar">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+         <div id="overlay">
+        <ul id="menuItems">
+            
+           <li ><a href="/pages/Home/web.html" id="homebtn">Home</a></li>
+            <li ><a href="/pages/Login/sign.html">Login/SignUp</a></li>
+             <li><a href="/pages/About Us/about.html" >About Us</a></li>
+        </ul>
+      </div>
+      </nav>
+      </div>
+    </header>
+ <main>
+    <div id="login">
+  <h1 id="title">Login</h1>
+
+  <form id="loginForm">
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Login</button>
+  </form>
+
+  <div class="login-footer" id="login-footer">
+    <p>Don't have an account? <a href="#" id="signupLink">Sign Up Now</a></p>
+  </div>
+
+  <h1 id="signupTitle" style="display:none;">Sign Up</h1>
+
+  <form id="signupForm" style="display:none;">
+    <input type="text" name="name" placeholder="Name">
+    <input type="email" name="email" placeholder="Email">
+    <input type="tel" name="number" placeholder="Number">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <div class="sign-footer" id="sign-footer">
+    <p>Already have an account? <a href="#" id="loginLink">Login now</a>.</p>
+  </div>
+    </div>
+  <script src="sign.js"></script>
+  <script src="web.js"></script>
+
+</main>
+
+<footer>
+  <div class="footer-section">
+    <h2>About Us</h2>
+      <p class="about-us-breif">Learn more about the passionate team behind SocialChat and our mission to bring people together through the power of conversation.</p>
+      <input type="button" value="Learn more" id="about-us-btn">
+  </div>
+  <div class="footer-section">
+    <h2>Get in touch </h2>
+    <label><i class="fa-regular fa-envelope"></i></label>
+    <a href="mailto:av9933143@gmail.com"id="mail">av9933143@gmail.com</a>
+    <label><i class="fa-solid fa-phone"></i></label>
+    <a href="tel:+91 9729589298" id="number">+91 9729589298</a>
+  </div>
+
+</footer>
+<div id="madeby"> <p>&#169; made by <span style="color: red;">&#10084;</span>
+for you</p></div>
+</body>
+</html>

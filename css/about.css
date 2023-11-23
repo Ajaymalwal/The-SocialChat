@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Archivo Black';
+}
+#aboutus-page{
+    padding-top: 10%;
+}
+h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+  
+}
+.breif{
+    font-size: 2em;
+    text-align: center;
+    padding: 5%;
+}
+.col{
+    display: flex;
+    padding-left: 15%;
+}
+.coldata{
+   flex: auto;
+   text-align: center;
+}
+.circle{
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 77.5px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.section4,.section3{
+    padding-bottom: 10%;
+}
+.signup-btn{
+    border-style: none;
+    padding: 3%;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #c5541c87;
+    border-radius: 1.5em;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+.signup-btn:hover{
+    background-color: cadetblue;
+}
+main{
+    padding: 5%,0;
+}
+.section1.section2.section3.section4{
+    margin-top: 20px;
+}
+.section3 h2{
+    margin:50px 0;
+}
+@media(max-width: 500px) {
+    .section3{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        
+    }
+   
+}
